@@ -1,47 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>文章标题</title>
-      <link href="/2019/04/20/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/"/>
-      <url>/2019/04/20/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/</url>
-      
-        <content type="html"><![CDATA[<h2 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h2><h3 id="你好-1"><a href="#你好-1" class="headerlink" title="你好"></a>你好</h3><h4 id="你好-2"><a href="#你好-2" class="headerlink" title="你好"></a>你好</h4><p><a href="https://blog.csdn.net/weixin_40141790" target="_blank" rel="noopener">csdn</a></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="keyword">public</span> Collection&lt;? extends GrantedAuthority&gt; getAuthorities() &#123;</span><br><span class="line">    List&lt;SimpleGrantedAuthority&gt; authorities = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">    <span class="keyword">for</span> (Role role : roles) &#123;</span><br><span class="line">        authorities.add(<span class="keyword">new</span> SimpleGrantedAuthority(role.getName()));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> authorities;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[文章标题]]></title>
+    <url>%2F2019%2F04%2F20%2F%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[你好你好你好csdn 12345678@Overridepublic Collection&lt;? extends GrantedAuthority&gt; getAuthorities() &#123; List&lt;SimpleGrantedAuthority&gt; authorities = new ArrayList&lt;&gt;(); for (Role role : roles) &#123; authorities.add(new SimpleGrantedAuthority(role.getName())); &#125; return authorities;&#125;]]></content>
       <categories>
-          
-          <category> Hexo </category>
-          
+        <category>Hexo</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-            <tag> NexT </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2019/04/20/hello-world/"/>
-      <url>/2019/04/20/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[SpringBoot之全局异常处理]]></title>
+    <url>%2F2019%2F04%2F20%2FSpringBoot%E4%B9%8B%E5%85%A8%E5%B1%80%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%2F</url>
+    <content type="text"><![CDATA[异常处理问题分析异常如何处理问题引入针对代码中的异常，常规有两种处理方式，一种throws直接抛出，另一种try..catch捕获。 在java项目中，有可能存在人为逻辑的异常，也可能为取得异常的详情，或是保证程序在异常时继续向下执行，会采用第二种处理方式。 但是，代码中每一处异常都来捕获，会使代码什么冗余且不利于维护。 解决思路定义一个全局异常处理类，返回统一规范的异常信息； 处理逻辑是，先判定是否会出现异常，再执行后续具体的业务。 业务举例本文主要为了实现全局异常处理的逻辑，只举简单业务 某公司部门需增加员工，处理流程：1先根据员工编号查询员工对象，2判断员工对象是否有信息，即是否不为空，3若有信息，则说明已存在，无需再添加，若不是，则直接添加。 代码如下： 12345678910111213141516171819202122public class MyService &#123; // 注入dao层 @Autowired EmployeeecMapper employeeecMapper; /** * 添加员工信息 * @param employee 员工对象 * @return 影响的行数 */ public int add(Employee employee) &#123; // 根据id查询员工对象 Employeeec emp = employeeecMapper.selectByPrimaryKey(employee.getId()); // 判断是否已有该员工 if (emp != null)&#123; // 已有，抛出异常，异常信息为已有该员工 throw new RuntimeException("异常代码：1201，错误信息：该员工已存在"); &#125; // 没有，插入该员工 return employeeecMapper.insert(emp); &#125;&#125; 异常处理流程业务中存在运行时异常和业务逻辑异常，前者不运行时很难察觉，后者在遍及业务时就可以定义出来，因此异常分为不可预知异常和可知异常。流程如下： 自定义全局异常类，使用@ControllerAdvice，控制器增强 自定义错误代码及错误信息，两种异常最终会采用统一的信息格式来表示，错误代码+错误信息。 对于可预知的异常由程序员在代码中主动抛出，由SpringMVC统一捕获。 不可预知异常通常是由于系统出现bug、或一些外界因素（如网络波动、服务器宕机等），异常类型为RuntimeException类型（运行时异常）。 可知异常定义异常信息类，变量为错误代码和错误信息，捕获自定义异常时，直接将该对象返回 不可知异常定义一个map，将常见的异常存入其中，并定义错误代码。对于其他不常见的异常，即map中没有的，同一一个异常对象返回即可。 异常处理代码流程可知异常1、定义打印异常信息与返回结果的接口 12345678910public interface ResultCode &#123; // 操作是否成功 boolean success(); // 操作结果代码 long code(); // 提示信息 String message();&#125; 1234public interface Response &#123; public static final boolean SUCCESS = true; public static final int SUCCESS_CODE = 10000;&#125; 2、定义打印异常信息的枚举类和返回结果类 123456789101112131415161718192021222324252627282930313233@ToStringpublic enum CommonCode implements ResultCode &#123; NO_PAGE(false,404,"没有信息"), FAIL(false,500,"操作失败！"), SUCCESS(true,200,"操作成功！"); // 结果信息 boolean success; long code; String message; // 带参构造 CommonCode(boolean success, long code, String message) &#123; this.success = success; this.code = code; this.message = message; &#125; @Override public boolean success() &#123; return true; &#125; @Override public long code() &#123; return code; &#125; @Override public String message() &#123; return message; &#125;&#125; 12345678910111213141516@Data@ToStringpublic class ResponseResult implements Response &#123; boolean success = SUCCESS; long code = SUCCESS_CODE; String message; public ResponseResult(ResultCode resultCode)&#123; this.success = resultCode.success(); this.code = resultCode.code(); this.message = resultCode.message(); &#125;&#125; 3、定义错误异常类 123456789101112131415public class CustomException extends RuntimeException&#123; @Autowired ResultCode resultCode; // 带参构造 public CustomException(ResultCode resultCode)&#123; this.resultCode = resultCode; &#125; // getter public ResultCode getResultCode()&#123; return resultCode; &#125;&#125; 4、定义异常抛出类 1234567public class ExceptionCast &#123; // 静态方法 public static void cast(ResultCode resultCode)&#123; throw new CustomException(resultCode); &#125;&#125; 5、定义异常捕获类，使用ControllerAdvice控制器增强的注解，并在捕获CustomException异常的方法上加ExceptionHandler注解，即可捕获该类的所有异常，返回json数据。 123456789101112131415@ControllerAdvice public class ExceptionCatch &#123; /** * 捕获CustomException类异常 * @param customException * @return 结果信息,json数据 */ @ExceptionHandler(CustomException.class) @ResponseBody public ResponseResult customException(CustomException customException)&#123; ResultCode resultCode = customException.getResultCode(); return new ResponseResult(resultCode); &#125;&#125; 6、在业务中抛出异常 12345678910111213public class MyService &#123; @Autowired EmployeeecMapper employeeecMapper; public int add(Employee employee) &#123; Employeeec emp = employeeecMapper.selectByPrimaryKey(employee.getId()); if (emp != null)&#123; ExceptionCast.cast(CommonCode.FAIL); &#125; return employeeecMapper.insert(emp); &#125;&#125; 不可知异常处理1、类似可知异常，先添加错误代码，如 1UNAUTHORISE(false,510,"没有权限"), 2、在异常捕获类中添加不可知异常的捕获方法。该方法中，定义一个只读的map存储异常类型的错误代码的映射，map中没有的元素，同一用错误代码999来定义。 1UNKNOWNERROR(false,999,"未知异常"), 12345678910111213141516171819202122232425262728293031323334353637383940@ControllerAdvicepublic class ExceptionCatch &#123; // 定义map，存贮常见错误信息。该类map不可修改 private static ImmutableMap&lt;Class&lt;? extends Throwable&gt;,ResultCode&gt; EXCEPTIONS; // 构建ImmutableMap protected static ImmutableMap.Builder&lt;Class&lt;? extends Throwable&gt;,ResultCode&gt; builder = ImmutableMap.builder(); @ExceptionHandler(CustomException.class) @ResponseBody public ResponseResult customException(CustomException customException)&#123; ResultCode resultCode = customException.getResultCode(); return new ResponseResult(resultCode); &#125; /** * 捕获非自定义类异常 * @param exception * @return */ @ExceptionHandler(Exception.class) @ResponseBody public ResponseResult exception(Exception exception)&#123; // 记录日志 LOGGER.error("catch exception ==&gt; ",exception.getMessage()); if (EXCEPTIONS == null)&#123; EXCEPTIONS = builder.build(); &#125; ResultCode resultCode = EXCEPTIONS.get(exception.getClass()); if (resultCode != null)&#123; return new ResponseResult(resultCode); &#125;else &#123; return new ResponseResult(CommonCode.UNKNOWNERROR); &#125; &#125; static &#123; builder.put(HttpMessageNotReadableException.class, CommonCode.INVALID_PARAM); &#125;&#125; 完成~~ 不可知异常处理###]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>异常</tag>
+        <tag>控制器增强</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F04%2F20%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
 </search>
